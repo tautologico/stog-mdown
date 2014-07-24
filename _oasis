@@ -1,0 +1,16 @@
+OASISFormat:  0.4
+Name:         Stog_mdown
+Version:      0.0
+Synopsis:     Markdown plugin for Stog using omd
+Authors:      Andrei Formiga
+License:      MIT
+Plugins:      META (0.4)
+BuildTools:   ocamlbuild
+
+Library Stog_mdown
+  Path:           src
+  Modules:        Matlib
+  BuildDepends:   stog (>= 0.11.1), omd (>= 0.9.6)
+  CompiledObject: best
+  ByteOpt:        -rectypes
+  NativeOpt:      -rectypes
