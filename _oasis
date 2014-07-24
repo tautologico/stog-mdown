@@ -9,7 +9,7 @@ BuildTools:   ocamlbuild
 
 Library Stog_mdown
   Path:           src
-  Modules:        Matlib
+  Modules:        Stog_mdown
   BuildDepends:   stog (>= 0.11.1), omd (>= 0.9.6)
   CompiledObject: best
   ByteOpt:        -rectypes
